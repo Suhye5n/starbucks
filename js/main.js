@@ -27,7 +27,7 @@ window.addEventListener('scroll', _.throttle(function () {
     });
   } else {
     gsap.to(badgeEl, .6, {
-      opacity: 1
+      opacity: 1,
       display: 'block'
     });
   }
